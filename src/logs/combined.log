@@ -242,3 +242,82 @@
 {"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T16:56:58.902Z"}
 {"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T16:57:05.497Z"}
 {"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T16:57:14.174Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T17:00:17.940Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T17:00:22.612Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T17:00:35.044Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T17:00:43.576Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T17:01:06.971Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T17:02:32.813Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T17:24:04.623Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T17:24:17.554Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T17:24:27.852Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T17:24:41.334Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T17:24:53.979Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T17:25:13.874Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T17:25:17.808Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T17:26:57.246Z"}
+{"level":"debug","message":"Token extracted: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OTJlMGJlYzUxYWQ4MTdlMzAxMTBhNGYiLCJleHAiOjE3NjQ3ODM2MzEsImlhdCI6MTc2NDc4MjczMX0.DD5-D6nMuwGU9BaMf1Q5caVl8FbTR9l8tZWMDq1vjnY","timestamp":"2025-12-03T17:26:57.682Z"}
+{"level":"debug","message":"Decoded JWT Payload: {\"sub\":\"692e0bec51ad817e30110a4f\",\"exp\":1764783631,\"iat\":1764782731}","timestamp":"2025-12-03T17:26:57.685Z"}
+{"level":"info","message":"User authenticated: 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:27:00.735Z"}
+{"level":"debug","message":"Logging activity: action=created, entity=task, entityId=692f5fe4fc69d4a1ec08a2c5, details=Task created successfully.","timestamp":"2025-12-03T17:27:00.735Z"}
+{"level":"debug","message":"Creating activity log: user=692e0bec51ad817e30110a4f, action=created, entity=task, entityId=692f5fe4fc69d4a1ec08a2c5, details=Task created successfully.","timestamp":"2025-12-03T17:27:00.736Z"}
+{"level":"info","message":"Activity log created: {\"user\":\"692e0bec51ad817e30110a4f\",\"action\":\"created\",\"entity\":\"task\",\"entityId\":\"692f5fe4fc69d4a1ec08a2c5\",\"details\":\"Task created successfully.\",\"_id\":\"693072e4b66e31e0662cbf00\",\"createdAt\":\"2025-12-03T17:27:00.738Z\",\"updatedAt\":\"2025-12-03T17:27:00.738Z\",\"__v\":0}","timestamp":"2025-12-03T17:27:01.176Z"}
+{"level":"info","message":"Activity logged for user 692e0bec51ad817e30110a4f: {\"user\":\"692e0bec51ad817e30110a4f\",\"action\":\"created\",\"entity\":\"task\",\"entityId\":\"692f5fe4fc69d4a1ec08a2c5\",\"details\":\"Task created successfully.\",\"_id\":\"693072e4b66e31e0662cbf00\",\"createdAt\":\"2025-12-03T17:27:00.738Z\",\"updatedAt\":\"2025-12-03T17:27:00.738Z\",\"__v\":0}","timestamp":"2025-12-03T17:27:01.177Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T17:27:34.615Z"}
+{"level":"debug","message":"Token extracted: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OTJlMGJlYzUxYWQ4MTdlMzAxMTBhNGYiLCJleHAiOjE3NjQ3ODM2MzEsImlhdCI6MTc2NDc4MjczMX0.DD5-D6nMuwGU9BaMf1Q5caVl8FbTR9l8tZWMDq1vjnY","timestamp":"2025-12-03T17:31:22.761Z"}
+{"level":"debug","message":"Decoded JWT Payload: {\"sub\":\"692e0bec51ad817e30110a4f\",\"exp\":1764783631,\"iat\":1764782731}","timestamp":"2025-12-03T17:31:22.764Z"}
+{"level":"info","message":"User authenticated: 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:31:23.018Z"}
+{"level":"debug","message":"Received notification creation request: message=New task assigned to you mister john doe., type=push","timestamp":"2025-12-03T17:31:23.018Z"}
+{"level":"debug","message":"Creating notification for user undefined: message=New task assigned to you mister john doe., type=push","timestamp":"2025-12-03T17:31:23.019Z"}
+{"level":"info","message":"Notification saved: {\"user\":\"692e0bec51ad817e30110a4f\",\"message\":\"New task assigned to you mister john doe.\",\"type\":\"push\",\"read\":false,\"_id\":\"693073eb099f859aed7b7605\",\"createdAt\":\"2025-12-03T17:31:23.021Z\",\"updatedAt\":\"2025-12-03T17:31:23.021Z\",\"__v\":0}","timestamp":"2025-12-03T17:31:23.280Z"}
+{"level":"info","message":"Publishing push notification for user undefined","timestamp":"2025-12-03T17:31:23.280Z"}
+{"level":"info","message":"Notification created for user 692e0bec51ad817e30110a4f: {\"user\":\"692e0bec51ad817e30110a4f\",\"message\":\"New task assigned to you mister john doe.\",\"type\":\"push\",\"read\":false,\"_id\":\"693073eb099f859aed7b7605\",\"createdAt\":\"2025-12-03T17:31:23.021Z\",\"updatedAt\":\"2025-12-03T17:31:23.021Z\",\"__v\":0}","timestamp":"2025-12-03T17:31:23.280Z"}
+{"level":"debug","message":"Token extracted: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OTJlMGJlYzUxYWQ4MTdlMzAxMTBhNGYiLCJleHAiOjE3NjQ3ODM2MzEsImlhdCI6MTc2NDc4MjczMX0.DD5-D6nMuwGU9BaMf1Q5caVl8FbTR9l8tZWMDq1vjnY","timestamp":"2025-12-03T17:34:58.270Z"}
+{"level":"debug","message":"Decoded JWT Payload: {\"sub\":\"692e0bec51ad817e30110a4f\",\"exp\":1764783631,\"iat\":1764782731}","timestamp":"2025-12-03T17:34:58.271Z"}
+{"level":"info","message":"User authenticated: 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:34:58.591Z"}
+{"level":"debug","message":"Fetching notifications for user 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:34:58.592Z"}
+{"level":"debug","message":"Retrieving notifications for user 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:34:58.592Z"}
+{"level":"info","message":"Retrieved 1 notifications for user 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:34:58.891Z"}
+{"level":"info","message":"Retrieved 1 notifications for user 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:34:58.891Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T17:36:18.537Z"}
+{"level":"debug","message":"Token extracted: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OTJlMGJlYzUxYWQ4MTdlMzAxMTBhNGYiLCJleHAiOjE3NjQ3ODM2MzEsImlhdCI6MTc2NDc4MjczMX0.DD5-D6nMuwGU9BaMf1Q5caVl8FbTR9l8tZWMDq1vjnY","timestamp":"2025-12-03T17:37:22.614Z"}
+{"level":"debug","message":"Decoded JWT Payload: {\"sub\":\"692e0bec51ad817e30110a4f\",\"exp\":1764783631,\"iat\":1764782731}","timestamp":"2025-12-03T17:37:22.617Z"}
+{"level":"info","message":"User authenticated: 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:37:22.877Z"}
+{"level":"debug","message":"Marking notification as read: notificationId=693073eb099f859aed7b7605","timestamp":"2025-12-03T17:37:22.877Z"}
+{"level":"debug","message":"Marking notification as read: notificationId=693073eb099f859aed7b7605","timestamp":"2025-12-03T17:37:22.878Z"}
+{"level":"info","message":"Notification marked as read: {\"_id\":\"693073eb099f859aed7b7605\",\"user\":\"692e0bec51ad817e30110a4f\",\"message\":\"New task assigned to you mister john doe.\",\"type\":\"push\",\"read\":false,\"createdAt\":\"2025-12-03T17:31:23.021Z\",\"updatedAt\":\"2025-12-03T17:31:23.021Z\",\"__v\":0}","timestamp":"2025-12-03T17:37:23.284Z"}
+{"level":"info","message":"Notification marked as read: {\"_id\":\"693073eb099f859aed7b7605\",\"user\":\"692e0bec51ad817e30110a4f\",\"message\":\"New task assigned to you mister john doe.\",\"type\":\"push\",\"read\":false,\"createdAt\":\"2025-12-03T17:31:23.021Z\",\"updatedAt\":\"2025-12-03T17:31:23.021Z\",\"__v\":0}","timestamp":"2025-12-03T17:37:23.285Z"}
+{"level":"debug","message":"Token extracted: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OTJlMGJlYzUxYWQ4MTdlMzAxMTBhNGYiLCJleHAiOjE3NjQ3ODM2MzEsImlhdCI6MTc2NDc4MjczMX0.DD5-D6nMuwGU9BaMf1Q5caVl8FbTR9l8tZWMDq1vjnY","timestamp":"2025-12-03T17:38:29.095Z"}
+{"level":"debug","message":"Decoded JWT Payload: {\"sub\":\"692e0bec51ad817e30110a4f\",\"exp\":1764783631,\"iat\":1764782731}","timestamp":"2025-12-03T17:38:29.096Z"}
+{"level":"info","message":"User authenticated: 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:38:29.338Z"}
+{"level":"debug","message":"Fetching notifications for user 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:38:29.339Z"}
+{"level":"debug","message":"Retrieving notifications for user 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:38:29.339Z"}
+{"level":"info","message":"Retrieved 1 notifications for user 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:38:29.583Z"}
+{"level":"info","message":"Retrieved 1 notifications for user 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:38:29.584Z"}
+{"level":"debug","message":"Token extracted: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OTJlMGJlYzUxYWQ4MTdlMzAxMTBhNGYiLCJleHAiOjE3NjQ3ODM2MzEsImlhdCI6MTc2NDc4MjczMX0.DD5-D6nMuwGU9BaMf1Q5caVl8FbTR9l8tZWMDq1vjnY","timestamp":"2025-12-03T17:38:38.186Z"}
+{"level":"debug","message":"Decoded JWT Payload: {\"sub\":\"692e0bec51ad817e30110a4f\",\"exp\":1764783631,\"iat\":1764782731}","timestamp":"2025-12-03T17:38:38.186Z"}
+{"level":"info","message":"User authenticated: 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:38:38.426Z"}
+{"level":"debug","message":"Fetching notifications for user 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:38:38.426Z"}
+{"level":"debug","message":"Retrieving notifications for user 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:38:38.426Z"}
+{"level":"info","message":"Retrieved 1 notifications for user 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:38:38.857Z"}
+{"level":"info","message":"Retrieved 1 notifications for user 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:38:38.858Z"}
+{"level":"debug","message":"Token extracted: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OTJlMGJlYzUxYWQ4MTdlMzAxMTBhNGYiLCJleHAiOjE3NjQ3ODM2MzEsImlhdCI6MTc2NDc4MjczMX0.DD5-D6nMuwGU9BaMf1Q5caVl8FbTR9l8tZWMDq1vjnY","timestamp":"2025-12-03T17:40:44.168Z"}
+{"level":"error","message":"JWT Verification failed: jwt expired","timestamp":"2025-12-03T17:40:44.169Z"}
+{"isOperational":true,"level":"error","message":"Invalid or expired token","stack":"Error: Invalid or expired token\n    at file:///Users/mac137/Desktop/Prac/task-management-backend/src/middlewares/auth.middleware.js:36:12\n    at Layer.handleRequest (/Users/mac137/Desktop/Prac/task-management-backend/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/mac137/Desktop/Prac/task-management-backend/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/Users/mac137/Desktop/Prac/task-management-backend/node_modules/router/lib/route.js:117:3)\n    at handle (/Users/mac137/Desktop/Prac/task-management-backend/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/Users/mac137/Desktop/Prac/task-management-backend/node_modules/router/lib/layer.js:152:17)\n    at /Users/mac137/Desktop/Prac/task-management-backend/node_modules/router/index.js:295:15\n    at param (/Users/mac137/Desktop/Prac/task-management-backend/node_modules/router/index.js:600:14)\n    at param (/Users/mac137/Desktop/Prac/task-management-backend/node_modules/router/index.js:610:14)\n    at processParams (/Users/mac137/Desktop/Prac/task-management-backend/node_modules/router/index.js:664:3)","statusCode":401,"timestamp":"2025-12-03T17:40:44.170Z"}
+{"level":"debug","message":"Token extracted: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OTJlMGJlYzUxYWQ4MTdlMzAxMTBhNGYiLCJleHAiOjE3NjQ3ODQ1NTMsImlhdCI6MTc2NDc4MzY1M30.EF2Cimex4rQ0MFIOnG2oZfkjEs8Wpds0-KiKLQI4urQ","timestamp":"2025-12-03T17:41:09.739Z"}
+{"level":"debug","message":"Decoded JWT Payload: {\"sub\":\"692e0bec51ad817e30110a4f\",\"exp\":1764784553,\"iat\":1764783653}","timestamp":"2025-12-03T17:41:09.740Z"}
+{"level":"info","message":"User authenticated: 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:41:09.901Z"}
+{"level":"debug","message":"Marking notification as read: notificationId=693073eb099f859aed7b7605","timestamp":"2025-12-03T17:41:09.901Z"}
+{"level":"debug","message":"Marking notification as read: notificationId=693073eb099f859aed7b7605","timestamp":"2025-12-03T17:41:09.902Z"}
+{"level":"info","message":"Notification marked as read: {\"_id\":\"693073eb099f859aed7b7605\",\"user\":\"692e0bec51ad817e30110a4f\",\"message\":\"New task assigned to you mister john doe.\",\"type\":\"push\",\"read\":true,\"createdAt\":\"2025-12-03T17:31:23.021Z\",\"updatedAt\":\"2025-12-03T17:37:22.879Z\",\"__v\":0}","timestamp":"2025-12-03T17:41:10.054Z"}
+{"level":"info","message":"Notification marked as read: {\"_id\":\"693073eb099f859aed7b7605\",\"user\":\"692e0bec51ad817e30110a4f\",\"message\":\"New task assigned to you mister john doe.\",\"type\":\"push\",\"read\":true,\"createdAt\":\"2025-12-03T17:31:23.021Z\",\"updatedAt\":\"2025-12-03T17:37:22.879Z\",\"__v\":0}","timestamp":"2025-12-03T17:41:10.055Z"}
+{"level":"debug","message":"Token extracted: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OTJlMGJlYzUxYWQ4MTdlMzAxMTBhNGYiLCJleHAiOjE3NjQ3ODM2MzEsImlhdCI6MTc2NDc4MjczMX0.DD5-D6nMuwGU9BaMf1Q5caVl8FbTR9l8tZWMDq1vjnY","timestamp":"2025-12-03T17:45:28.733Z"}
+{"level":"error","message":"JWT Verification failed: jwt expired","timestamp":"2025-12-03T17:45:28.733Z"}
+{"isOperational":true,"level":"error","message":"Invalid or expired token","stack":"Error: Invalid or expired token\n    at file:///Users/mac137/Desktop/Prac/task-management-backend/src/middlewares/auth.middleware.js:36:12\n    at Layer.handleRequest (/Users/mac137/Desktop/Prac/task-management-backend/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/mac137/Desktop/Prac/task-management-backend/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/Users/mac137/Desktop/Prac/task-management-backend/node_modules/router/lib/route.js:117:3)\n    at handle (/Users/mac137/Desktop/Prac/task-management-backend/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/Users/mac137/Desktop/Prac/task-management-backend/node_modules/router/lib/layer.js:152:17)\n    at /Users/mac137/Desktop/Prac/task-management-backend/node_modules/router/index.js:295:15\n    at processParams (/Users/mac137/Desktop/Prac/task-management-backend/node_modules/router/index.js:582:12)\n    at next (/Users/mac137/Desktop/Prac/task-management-backend/node_modules/router/index.js:291:5)\n    at router.handle (/Users/mac137/Desktop/Prac/task-management-backend/node_modules/router/index.js:186:3)","statusCode":401,"timestamp":"2025-12-03T17:45:28.734Z"}
+{"level":"debug","message":"Token extracted: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OTJlMGJlYzUxYWQ4MTdlMzAxMTBhNGYiLCJleHAiOjE3NjQ3ODQ1NTMsImlhdCI6MTc2NDc4MzY1M30.EF2Cimex4rQ0MFIOnG2oZfkjEs8Wpds0-KiKLQI4urQ","timestamp":"2025-12-03T17:45:46.245Z"}
+{"level":"debug","message":"Decoded JWT Payload: {\"sub\":\"692e0bec51ad817e30110a4f\",\"exp\":1764784553,\"iat\":1764783653}","timestamp":"2025-12-03T17:45:46.246Z"}
+{"level":"info","message":"User authenticated: 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:45:46.471Z"}
+{"level":"debug","message":"Fetching activities for user 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:45:46.472Z"}
+{"level":"debug","message":"Retrieving audit logs for user 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:45:46.472Z"}
+{"level":"info","message":"Retrieved 1 audit logs for user 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:45:46.708Z"}
+{"level":"info","message":"Retrieved 1 activities for user 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T17:45:46.708Z"}
