@@ -236,3 +236,9 @@
 {"level":"debug","message":"Token extracted: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OTJlMGJlYzUxYWQ4MTdlMzAxMTBhNGYiLCJleHAiOjE3NjQ3ODEyNjYsImlhdCI6MTc2NDc4MDM2Nn0.WSKKR33inPNu9cPrO5hTRvM9m5qpgHW_mN78VSFtjOM","timestamp":"2025-12-03T16:50:36.844Z"}
 {"level":"debug","message":"Decoded JWT Payload: {\"sub\":\"692e0bec51ad817e30110a4f\",\"exp\":1764781266,\"iat\":1764780366}","timestamp":"2025-12-03T16:50:36.845Z"}
 {"level":"info","message":"User authenticated: 692e0bec51ad817e30110a4f","timestamp":"2025-12-03T16:50:37.307Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T16:56:28.455Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T16:56:46.672Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T16:56:52.048Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T16:56:58.902Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T16:57:05.497Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-12-03T16:57:14.174Z"}
